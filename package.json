@@ -21,7 +21,7 @@
     "pretest": "yarn build",
     "prepublishOnly": "yarn test",
     "lint": "eslint src --fix",
-    "postinstall": "tsmodule build"
+    "prepack": "yarn build"
   },
   "devDependencies": {
     "@tsmodule/tsmodule": "^40.16.0",
