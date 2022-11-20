@@ -20,7 +20,8 @@
     "test": "ava",
     "pretest": "yarn build",
     "prepublishOnly": "yarn test",
-    "lint": "eslint src --fix"
+    "lint": "eslint src --fix",
+    "postinstall": "yarn build"
   },
   "devDependencies": {
     "@tsmodule/tsmodule": "^40.16.0",
