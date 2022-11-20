@@ -1,5 +1,5 @@
 {
-  "name": "auth0-node-client",
+  "name": "@marinacabrera/auth0-node-client",
   "description": "Auth0 Node.js Client for logging in and out with browser, and making authenticated requests.",
   "version": "2.4.7",
   "license": "MIT",
